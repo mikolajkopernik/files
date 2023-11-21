@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styl.css">
+    <title>Strona logowania</title>
+</head>
+<body>
+<div class="contener">
+<form action="login.php" method="post"> 
+    <h5>Podaj login</h5>
+    <input id="login" type="text" name="login" /> 
+    <h5>Podaj hasło</h5>
+    <input id="haslo" type="password" name="password" /> 
+    <button class="button-85" role="button" type="submit">Zaloguj się</button>
+  </form>
+</div>
+</body>
+</html>
+<!--
+    <?php
+if( isset ($_POST['submit']) ) {
+    $username='login';
+    $password='test';
+    
+      if(  ( $_POST['uname'] == $username ) && ( $_POST['pass'] == $password) ) 
+      {
+        echo("<a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>funny</a>");
+      } 
+      else{
+           echo("podano złe warości");
+     }
+    
+    }
+  ?>
+-->
